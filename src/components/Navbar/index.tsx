@@ -1,28 +1,29 @@
 import styles from './styles.module.scss';
+import Image from 'next/image';
 
 export default function Navbar() {
   return (
     <header className={styles.headerContainer}>
+      <Image width={64} height={64} src={'/logo.svg'} alt='Pedro Bennesby' />
       <nav>
-        <h1>Pedro Bennesby</h1>
         <ul>
           <li>
-            <a data-page='about' href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#about'>
               Sobre
             </a>
           </li>
           <li>
-            <a data-page='technologies' href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#technologies'>
               Tecnologias
             </a>
           </li>
           <li>
-            <a data-page='projects' href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#'>
               Projetos
             </a>
           </li>
           <li>
-            <a data-page='contact' href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#'>
               Contato
             </a>
           </li>

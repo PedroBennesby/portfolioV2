@@ -2,7 +2,7 @@ import styles from './styles.module.scss';
 
 export default function About() {
   return (
-    <section data-index='0' className={styles.sectionContainer}>
+    <section id='about' className={styles.sectionContainer}>
       <div className={styles.sectionName}>
         <h1>Sobre</h1> <span />
       </div>
