@@ -9,8 +9,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div className={styles.wrapper}>
       <Navbar />
-      <About />
       <Component {...pageProps} />
+      <About />
     </div>
   );
 }

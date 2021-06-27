@@ -1,0 +1,60 @@
+.sectionContainer {
+  margin-top: 5rem;
+  min-height: 100vh;
+
+  h3 {
+    font: 700 2rem Roboto Mono, monospace;
+    line-height: 3rem;
+  }
+
+  h1 {
+    font: 700 6rem Poppins, sans-serif;
+    white-space: nowrap;
+  }
+
+  h2 {
+    font: 700 2.5rem Poppins, sans-serif;
+    line-height: 3.125rem;
+    color: var(--blue-400);
+    margin: 8px 0;
+  }
+
+  p {
+    font: 700 1rem Roboto Mono, monospace;
+    line-height: 1.5rem;
+  }
+
+  div {
+    a {
+      text-decoration: none;
+      font: 700 1rem Roboto Mono, monospace;
+      line-height: 1.1875rem;
+      color: var(--blue-400);
+      border: 3px solid var(--blue-400);
+      display: inline-flex;
+      appearance: none;
+      -moz-box-align: center;
+      align-items: center;
+      -moz-box-pack: center;
+      justify-content: center;
+      transition: all 250ms ease 0s;
+      user-select: none;
+      position: relative;
+      white-space: nowrap;
+      vertical-align: middle;
+      outline: currentcolor none medium;
+      width: 188px;
+      line-height: 1.2;
+      border-radius: 0px;
+      font-weight: 600;
+      background: rgb(252, 252, 252) none repeat scroll 0% 0%;
+      height: 56px;
+      margin: 32px 0;
+      text-transform: uppercase;
+      &:hover {
+        background: var(--blue-400);
+        color: var(--white);
+      }
+    }
+  }
+}
