@@ -1,0 +1,30 @@
+.headerContainer {
+  nav {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 10vh;
+    margin: auto;
+    width: 90%;
+    padding: 0 1.5rem;
+
+    h1,
+    ul,
+    li {
+      font-size: 1.125rem;
+      flex: 1;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a {
+      color: var(--black);
+      text-decoration: none;
+    }
+  }
+}
