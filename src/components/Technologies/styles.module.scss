@@ -1,0 +1,72 @@
+.sectionContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .sectionName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 64px;
+    }
+
+    span {
+      display: block;
+      background: var(--black);
+      height: 2px;
+      width: 100%;
+    }
+  }
+
+  .iconBoxContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 5px solid var(--black);
+    height: 70vh;
+
+    .iconBox {
+      color: var(--black);
+      font-size: 4rem;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      flex-direction: row;
+      padding: 2rem 4rem;
+
+      .html:hover {
+        color: #e54c21;
+      }
+      .css:hover {
+        color: #0b72b4;
+      }
+      .sass:hover {
+        color: #ce679a;
+      }
+      .bootstrap:hover {
+        color: #563d7c;
+      }
+      .php:hover {
+        color: #8993c1;
+      }
+      .javascript:hover {
+        color: #e4a227;
+      }
+      .typescript:hover {
+        color: #2d79c7;
+      }
+      .react:hover {
+        color: #2d79c7;
+      }
+      .angular:hover {
+        color: #c3002f;
+      }
+    }
+  }
+}

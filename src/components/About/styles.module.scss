@@ -1,7 +1,8 @@
 .sectionContainer {
+  margin-top: 8rem;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: column;
 
   .sectionName {

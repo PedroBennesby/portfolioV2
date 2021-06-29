@@ -1,14 +1,18 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 80vw;
+}
+
 .sectionContainer {
-  margin-top: 5rem;
   min-height: 100vh;
-
-  h3 {
-    font: 700 2rem Roboto Mono, monospace;
-    line-height: 3rem;
-  }
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   h1 {
-    font: 700 6rem Poppins, sans-serif;
+    font: 700 5rem Poppins, sans-serif;
     white-space: nowrap;
   }
 
@@ -17,6 +21,11 @@
     line-height: 3.125rem;
     color: var(--blue-400);
     margin: 8px 0;
+  }
+
+  h3 {
+    font: 700 2rem Roboto Mono, monospace;
+    line-height: 3rem;
   }
 
   p {
