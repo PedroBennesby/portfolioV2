@@ -4,6 +4,9 @@
   justify-content: center;
   margin: auto;
   width: 80vw;
+  @media only screen and (min-width: 375px) and (max-width: 812px) {
+    width: 100%;
+  }
 }
 
 .sectionContainer {
@@ -14,6 +17,9 @@
   h1 {
     font: 700 5rem Poppins, sans-serif;
     white-space: nowrap;
+    @media only screen and (min-width: 375px) and (max-width: 812px) {
+      font-size: 2.75rem;
+    }
   }
 
   h2 {
@@ -21,6 +27,9 @@
     line-height: 3.125rem;
     color: var(--blue-400);
     margin: 8px 0;
+    @media only screen and (min-width: 375px) and (max-width: 812px) {
+      font-size: 1.5rem;
+    }
   }
 
   h3 {

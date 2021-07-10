@@ -11,9 +11,15 @@
     align-items: center;
     margin-right: 1rem;
     margin-bottom: 2rem;
+    @media only screen and (min-width: 375px) and (max-width: 812px) {
+      margin-top: 3rem;
+    }
 
     h1 {
-      font-size: 64px;
+      font-size: 4rem;
+      @media only screen and (min-width: 375px) and (max-width: 812px) {
+        font-size: 3rem;
+      }
     }
 
     span {
@@ -39,6 +45,11 @@
       flex-wrap: wrap;
       flex-direction: row;
       padding: 2rem 4rem;
+
+      @media only screen and (min-width: 375px) and (max-width: 812px) {
+        font-size: 3rem;
+        padding: 1rem 2rem;
+      }
 
       .html:hover {
         color: #e54c21;

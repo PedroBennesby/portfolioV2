@@ -23,6 +23,18 @@
   --blue-800: #3f6c96;
 }
 
+@media (max-width: 1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
 body {
   background: var(--background);
 }
@@ -31,6 +43,10 @@ section {
   margin: auto;
   width: 80vw;
   padding: 0 1.5rem;
+
+  @media only screen and (min-width: 375px) and (max-width: 812px) {
+    width: 100%;
+  }
 }
 
 body,

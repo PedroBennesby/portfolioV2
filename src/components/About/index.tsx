@@ -36,7 +36,12 @@ export default function About() {
             <div /> <p>Estudando UX/UI e Acessibilidade </p>
           </li>
         </ul>
-        <Image width={350} height={400} src='/me.jpg'></Image>
+        <Image
+          width={400}
+          height={400}
+          src='/me.jpg'
+          alt='Uma foto minha sentado'
+        ></Image>
       </div>
     </section>
   );
