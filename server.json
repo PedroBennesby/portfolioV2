@@ -1,0 +1,29 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Mana, vai! Podcast",
+      "description": "Projeto criado para agregar os Podcast feitos por mim em um antigo canal do Youtube, o projeto foi o primeiro em que utilizei Next.js consumindo uma API Rest fake.",
+      "url": "https://manavaipodcast.vercel.app/",
+      "github": "https://github.com/PedroBennesby/ManaVaiPodcast",
+      "techs": {
+        "typescript": "SiTypescript",
+        "next": "SiNextDotJs",
+        "react": "FaReact",
+        "sass": "FaSass"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Pokédex",
+      "description": "Pokédex feita para estudar Angular e consumo de APIs Rest, projeto ainda está em fase de melhorias e possível migração de framework para melhorar o desempenho.",
+      "url": "https://pokedex-pedrobennesby.vercel.app/",
+      "github": "https://github.com/PedroBennesby/Pokedex",
+      "techs": {
+        "typescript": "SiTypescript",
+        "angular": "FaAngular",
+        "sass": "FaSass"
+      }
+    }
+  ]
+}

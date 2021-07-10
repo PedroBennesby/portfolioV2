@@ -4,7 +4,9 @@ import Image from 'next/image';
 export default function Navbar() {
   return (
     <header className={styles.headerContainer}>
-      <Image width={64} height={64} src={'/logo.svg'} alt='Pedro Bennesby' />
+      <a href='#'>
+        <Image width={64} height={64} src={'/logo.svg'} alt='Pedro Bennesby' />
+      </a>
       <nav>
         <ul>
           <li>
@@ -18,12 +20,12 @@ export default function Navbar() {
             </a>
           </li>
           <li>
-            <a className={styles.hvrUnderlineFromLeft} href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#projects'>
               Projetos
             </a>
           </li>
           <li>
-            <a className={styles.hvrUnderlineFromLeft} href='#'>
+            <a className={styles.hvrUnderlineFromLeft} href='#contact'>
               Contato
             </a>
           </li>

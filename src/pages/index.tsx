@@ -26,10 +26,8 @@ export default function Home() {
           />
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          autem atque natus ipsam repellat repellendus, quia aperiam sit, eum
-          vitae vero recusandae, voluptatem accusamus ea pariatur eligendi et
-          saepe quis.
+          Sou um desenvolvedor web/front-end apaixonado por criação de Sites
+          responsivos, Landing pages e Hotsites.
         </p>
 
         <div>

@@ -1,5 +1,5 @@
 .sectionContainer {
-  margin-top: 8rem;
+  // margin-top: 8rem;
   min-height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -25,37 +25,49 @@
     }
   }
 
-  h3 {
-    font: 700 1.5rem Roboto Mono, monospace;
-    line-height: 1.875rem;
-  }
+  .aboutBox {
+    display: flex;
+    justify-content: space-between;
 
-  p {
-    line-height: 1.5rem;
-  }
+    img {
+      border-radius: 50%;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      // width: 50%;
+    }
 
-  ul {
-    margin-top: 3rem;
-    list-style: none;
+    h3 {
+      font: 700 1.5rem Roboto Mono, monospace;
+      line-height: 1.875rem;
+    }
 
-    li {
-      display: flex;
-      flex-direction: row;
-      font: 400 1rem Roboto Mono, monospace;
-      margin-top: 0.5rem;
+    p {
+      line-height: 1.5rem;
+    }
 
-      div {
-        background: var(--blue-400);
-        width: 0.625rem;
-        height: 0.625rem;
-        top: 7px;
-        border-radius: 9999px;
-        position: relative;
-      }
+    ul {
+      margin-top: 3rem;
+      list-style: none;
 
-      p {
-        line-height: 1.5rem;
-        margin-left: 0.75rem;
+      li {
+        display: flex;
+        flex-direction: row;
+        font: 400 1rem Roboto Mono, monospace;
+        margin-top: 0.5rem;
+
+        div {
+          background: var(--blue-400);
+          width: 0.625rem;
+          height: 0.625rem;
+          top: 7px;
+          border-radius: 9999px;
+          position: relative;
+        }
+
+        p {
+          line-height: 1.5rem;
+          margin-left: 0.75rem;
+        }
       }
     }
   }

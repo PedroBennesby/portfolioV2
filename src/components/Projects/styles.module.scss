@@ -1,0 +1,185 @@
+.sectionContainer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .sectionName {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+    margin-bottom: 2rem;
+
+    h1 {
+      font-size: 64px;
+    }
+
+    span {
+      display: block;
+      background: var(--black);
+      height: 2px;
+      width: 100%;
+    }
+  }
+  .projectsBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .projectContainer {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      align-self: center;
+      border: 1px solid #e2e8f0;
+      width: 30rem;
+
+      .projectTitle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--black);
+        width: 100%;
+        margin-bottom: 2rem;
+        height: 6rem;
+
+        h1 {
+          color: var(--white);
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+          font-weight: 700;
+        }
+      }
+      .projectBody {
+        padding-inline-start: 2rem;
+        padding-inline-end: 2rem;
+
+        h1 {
+          font-size: 1.25rem;
+          line-height: 1.875rem;
+        }
+
+        p {
+          margin-top: 2rem;
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+
+        .techs {
+          margin-top: 2rem;
+          width: 40%;
+          display: flex;
+          justify-content: space-between;
+
+          .html:hover {
+            color: #e54c21;
+          }
+          .css:hover {
+            color: #0b72b4;
+          }
+          .sass:hover {
+            color: #ce679a;
+          }
+          .bootstrap:hover {
+            color: #563d7c;
+          }
+          .php:hover {
+            color: #8993c1;
+          }
+          .javascript:hover {
+            color: #e4a227;
+          }
+          .typescript:hover {
+            color: #2d79c7;
+          }
+          .react:hover {
+            color: #2d79c7;
+          }
+          .angular:hover {
+            color: #c3002f;
+          }
+          .next:hover {
+            color: #a7a7a7;
+          }
+        }
+
+        .buttons {
+          margin-top: 2rem;
+          padding-bottom: 2rem;
+
+          .liveProject {
+            border: 1px solid var(--black);
+            white-space: nowrap;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.1875rem;
+            text-decoration: none;
+            color: var(--black);
+            text-transform: uppercase;
+            padding: 0.5rem 1rem;
+            margin-right: 0.5rem;
+
+            &:hover {
+              color: var(--white);
+              background: var(--black);
+              transition: 0.3s;
+            }
+          }
+          .codeProject {
+            border: 1px solid var(--black);
+            white-space: nowrap;
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.1875rem;
+            text-decoration: none;
+            color: var(--white);
+            background: var(--black);
+            text-transform: uppercase;
+            padding: 0.5rem 1rem;
+
+            &:hover {
+              color: var(--black);
+              background: var(--white);
+              transition: 0.3s;
+            }
+          }
+        }
+      }
+    }
+  }
+  .otherProjects {
+    align-self: center;
+    margin-top: 2rem;
+    border: 1px solid var(--black);
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.1875rem;
+    text-decoration: none;
+    color: var(--white);
+    background: var(--black);
+    text-transform: uppercase;
+    padding: 0.5rem 1rem;
+    width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background: var(--white);
+      transition: 0.3s;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--white);
+
+      &:hover {
+        color: var(--black);
+      }
+    }
+  }
+}
