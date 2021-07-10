@@ -37,6 +37,7 @@ export default function Projects() {
               <a
                 href='https://manavaipodcast.vercel.app/'
                 target='_blank'
+                rel='noreferrer'
                 className={styles.liveProject}
               >
                 Visite o site
@@ -44,6 +45,7 @@ export default function Projects() {
               <a
                 href='https://github.com/PedroBennesby/ManaVaiPodcast'
                 target='_blank'
+                rel='noreferrer'
                 className={styles.codeProject}
               >
                 Veja o código
@@ -72,6 +74,7 @@ export default function Projects() {
               <a
                 href='https://pokedex-pedrobennesby.vercel.app/'
                 target='_blank'
+                rel='noreferrer'
                 className={styles.liveProject}
               >
                 Visite o site
@@ -79,6 +82,7 @@ export default function Projects() {
               <a
                 href='https://github.com/PedroBennesby/Pokedex'
                 target='_blank'
+                rel='noreferrer'
                 className={styles.codeProject}
               >
                 Veja o código
