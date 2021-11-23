@@ -93,7 +93,13 @@ export default function Projects() {
       </div>
 
       <div className={styles.otherProjects}>
-        <a href='#'>Outros projetos </a>
+        <a
+          href='https://github.com/PedroBennesby'
+          target='_blank'
+          rel='noreferrer'
+        >
+          Outros projetos{' '}
+        </a>
       </div>
     </section>
   );

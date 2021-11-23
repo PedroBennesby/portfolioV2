@@ -45,6 +45,7 @@
       flex-wrap: wrap;
       flex-direction: row;
       padding: 2rem 4rem;
+      transition: all 2s ease;
 
       @media only screen and (min-width: 375px) and (max-width: 812px) {
         font-size: 3rem;
@@ -53,33 +54,43 @@
 
       .html:hover {
         color: #e54c21;
+        transition: all 0.5s ease;
       }
       .css:hover {
         color: #0b72b4;
+        transition: all 0.5s ease;
       }
       .sass:hover {
         color: #ce679a;
+        transition: all 0.5s ease;
       }
       .bootstrap:hover {
         color: #563d7c;
+        transition: all 0.5s ease;
       }
       .php:hover {
         color: #8993c1;
+        transition: all 0.5s ease;
       }
       .javascript:hover {
         color: #e4a227;
+        transition: all 0.5s ease;
       }
       .typescript:hover {
         color: #2d79c7;
+        transition: all 0.5s ease;
       }
       .react:hover {
         color: #2d79c7;
+        transition: all 0.5s ease;
       }
       .angular:hover {
         color: #c3002f;
+        transition: all 0.5s ease;
       }
       .next:hover {
         color: #a7a7a7;
+        transition: all 0.5s ease;
       }
     }
   }

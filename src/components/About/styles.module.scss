@@ -1,5 +1,4 @@
 .sectionContainer {
-  // margin-top: 8rem;
   min-height: 100vh;
   display: flex;
   justify-content: flex-start;
@@ -15,6 +14,9 @@
 
     h1 {
       font-size: 64px;
+      @media only screen and (min-width: 375px) and (max-width: 812px) {
+        font-size: 3rem;
+      }
     }
 
     span {
